@@ -145,10 +145,40 @@ body{
 
 }
 /* Medium devices (tablets, 768px and up) */
-@media only screen and (max-width: 768px) { 
+@media only screen and (max-width: 769px) { 
     .header-wrapper{
         height: 50vh;
     }
+    .header-column-left{
+        width: 55%;
+    }
+    .column-wrapper{
+        top: 2%;
+        left: 2%;
+    }
+    .header-title-top{
+        font-size: 25px;
+        width: 100%;
+    }
+    .header-title-top
+        p{
+            font-size: 40px; 
+            margin-top: 10%; 
+        }
+    .header-title-bot{
+        margin-top: 10%;
+        width: 100%;
+    }
+    .header-column-right{
+        width: 45%;
+    }
+    .box-date{
+        width: 90%;
+        height: 90%;
+        top: 5%;
+        left: 5%;
+    }
+
  }
 /* Small devices (landscape phones, 576px and up) */
 @media only screen and (max-width: 567px) and (min-width: 321px) {
