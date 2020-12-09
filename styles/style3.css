@@ -31,13 +31,7 @@ body{
     background-color: red;
     opacity: 0.6;
 }
-.header-column-right{
-    position: relative;
-    height: 100%;
-    width: 40%;
-    background-color: blue;
-    opacity: 0.6;
-}
+
 .column-wrapper{
     position: absolute;
     background-color: white;
@@ -45,12 +39,12 @@ body{
     width: auto;
     left: 20%;
     top: 10%;
-    /* left: 180px; */
+
     color: black;
 }
 .header-title-top{
-    font-size: 30px;
-    width: 70%;
+    font-size: 200%;
+    width: 70vh;
 }
 .header-title-top 
     p {
@@ -75,16 +69,22 @@ body{
     transition: all 0.3s ease 0s;
 }
 
-
+.header-column-right{
+    position: relative;
+    height: 100%;
+    width: 40%;
+    background-color: blue;
+    opacity: 0.6;
+}
 .box-date{
     position: absolute;
-    width: 70%;
-    height: 50%;
+    width: 500px;
+    height: 500px;
     background-color: rgb(33, 8, 34);
     color: black;
-    border-radius: 15px;
-    top: 25%;
-    left: 40px;
+    border-radius: 20px;
+    top: 20%;
+    left: 70px;
 }
 .box-date-wrapper{
     position: relative;
@@ -136,9 +136,6 @@ body{
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (max-width: 1200px){
-    .header-wrapper{
-        
-    }
     .header-row{
         display: block;
     }
@@ -152,46 +149,50 @@ body{
         top: 10%;
     }
     .header-title-top{
-        font-size: 40px;
+        font-size: 50px;
         width: 100%;
     }
     .header-title-top
     p{
-        margin-top:5%;
-        font-size: 45px;
+        margin-top:15%;
+        font-size: 70px;
     }
     .header-title-bot{
-        margin-top: 5%;
+        margin-top: 15%;
         width: 100%;
-        font-size: 40px; 
+        font-size: 50px; 
     }
     .buttonmap{
-        font-size: 40px;
+        font-size: 70px;
+    }
+    .header-column-right{
+        height: 66%;
+        width: 100%;
     }
     .box-date{
-        width: 70%;
-        height: 80%;
-        top: 10%;
-        left: 16%;
+        width: 80%;
+        height: 80vw;
+        top: 5%;
+        left: 10%;
     }
     .box-date-top{
-        font-size: 80px;
+        font-size: 90px;
     }
     .box-date-top
     p{
-        font-size: 40px;
+        font-size: 50px;
     }
     .box-date-bot{
-        top:45%
+        top:40%
     }
     .btn{
         width: 80%;
-        font-size: 50px;
-        padding: 20px;
+        font-size: 80px;
+        padding: 30px;
         margin-left: 10%;
     }
     .going{
-        margin-top: 5%;
+        margin-top: 10%;
     }
 }
 @media (max-width: 992px){
@@ -222,36 +223,37 @@ body{
     }
 }
 @media (max-width: 768px) {
+    .column-wrapper{
+        top: 10%;
+    }
     .header-title-top{
-        font-size: 30px;
+        font-size: 40px;
     }
     .header-title-top
     p{
-        font-size: 30px;
+        margin-top: 10%;
+        font-size: 40px;
     }
     .header-title-bot{
         width: 100%;
-        font-size: 30px; 
-        margin-top: 5%;
+        font-size: 40px; 
+        margin-top: 10%;
     }
     .buttonmap{
-        font-size: 30px;
-        margin-top:2%;
+        font-size: 45px;
+        margin-top:10%;
     }
     .box-date{
-        top:10%
+        top: 5%;
     }
     .box-date-top
     p{
-        font-size: 30px;   
-    }
-    .box-date-bot{
-
+        font-size: 40px;   
     }
     .btn{
         width: 80%;
-        padding: 15px;
-        font-size: 50px;
+        padding: 20px;
+        font-size: 60px;
         margin-left: 10%;
     }
  }
@@ -261,21 +263,28 @@ body{
         left: 5%;
     }
     .header-title-top{
-
-        font-size: 20px;
+        font-size: 25px;
     }
     .header-title-top
     p {
-        font-size: 25px;
+        margin-top: 15%;
+        font-size: 35px;
     }
     .header-title-bot{
         width: 100%;
-        font-size: 20px; 
-        margin-top:5%;
+        font-size: 25px; 
+        margin-top:20%;
+    }
+    .buttonmap{
+        margin-top: 15%;
+        font-size: 30px;
+    }
+    .header-column-right{
+        height: 370px;
     }
     .box-date{
         width: 90%;
-        height: 90%;
+        height: 330px;
         top: 5%;
         left: 5%;
     }
@@ -284,10 +293,10 @@ body{
     }
     .box-date-top
     p{
-        font-size: 25px;
+        font-size: 20px;
     }
     .box-date-bot{
-        top: 40%;
+        top: 35%;
     }
     .btn{
         width: 80%;
@@ -295,6 +304,49 @@ body{
         font-size: 30px;
         margin-left: 10%;
     }
+
+}
+
+@media (max-width: 360px){
+    .column-wrapper{
+        top: 10%
+    }
+    .header-title-top{
+        font-size: 25px;
+    }
+    .header-title-top
+    p {
+        margin-top: 5%;
+        font-size: 25px;
+    }
+    .header-title-bot{
+        margin-top: 10%;
+        font-size: 20px; 
+    }
+    .buttonmap{
+        margin-top: 5%;
+    }
+    .box-date{
+
+    }
+    .box-date-top
+    p{
+        font-size: 20px;
+    }
+    .box-date-bot{
+        top: 40%;
+    }
+    .btn{
+        width: 80%;
+        padding: 20px;
+        font-size: 25px;
+        margin-left: 10%;
+    }
+    
+
+}
+
+@media (max-width: 320px){
 
 }
  /* Medium devices (tablets, 768px and up) */
