@@ -11,8 +11,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .header-wrapper{
-    height: 760px;
-    width: auto;
+    height: 100vh;
     background:url("../images/backgrnd.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -53,7 +52,6 @@ body{
     font-size: 30px;
     width: 70%;
 }
-
 .header-title-top 
     p {
         font-size: 35px; 
@@ -137,11 +135,174 @@ body{
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media only screen and  (max-width: 1200px) { 
+@media (max-width: 1200px){
+    .header-wrapper{
+        
+    }
+    .header-row{
+        display: block;
+    }
+    .header-column-left{
+        width: 100%;
+    }
+    .header-column-right{
+        width: 100%;
+    }
+    .column-wrapper{
+        top: 10%;
+    }
+    .header-title-top{
+        font-size: 40px;
+        width: 100%;
+    }
+    .header-title-top
+    p{
+        margin-top:5%;
+        font-size: 45px;
+    }
+    .header-title-bot{
+        margin-top: 5%;
+        width: 100%;
+        font-size: 40px; 
+    }
+    .buttonmap{
+        font-size: 40px;
+    }
+    .box-date{
+        width: 70%;
+        height: 80%;
+        top: 10%;
+        left: 16%;
+    }
+    .box-date-top{
+        font-size: 80px;
+    }
+    .box-date-top
+    p{
+        font-size: 40px;
+    }
+    .box-date-bot{
+        top:45%
+    }
+    .btn{
+        width: 80%;
+        font-size: 50px;
+        padding: 20px;
+        margin-left: 10%;
+    }
+    .going{
+        margin-top: 5%;
+    }
+}
+@media (max-width: 992px){
+    .column-wrapper{
+        top: 15%;
+    }
+    .header-title-top{
+        font-size: 25px;
+    }
+    .header-title-top
+    p{
+        font-size: 30px;
+    }
+    .header-title-bot{
+        margin-top: 15%;
+        width: 100%;
+        font-size: 25px; 
+    }
+    .box-date{
+        top: 23%;
+    }
+    .box-date-top{
+        left: 5%;   
+    }
+    .box-date-top
+    p{
+        font-size: 23px;
+    }
+}
+@media (max-width: 768px) {
+    .header-title-top{
+        font-size: 30px;
+    }
+    .header-title-top
+    p{
+        font-size: 30px;
+    }
+    .header-title-bot{
+        width: 100%;
+        font-size: 30px; 
+        margin-top: 5%;
+    }
+    .buttonmap{
+        font-size: 30px;
+        margin-top:2%;
+    }
+    .box-date{
+        top:10%
+    }
+    .box-date-top
+    p{
+        font-size: 30px;   
+    }
+    .box-date-bot{
+
+    }
+    .btn{
+        width: 80%;
+        padding: 15px;
+        font-size: 50px;
+        margin-left: 10%;
+    }
+ }
+
+@media (max-width: 576px) {
+    .column-wrapper{
+        left: 5%;
+    }
+    .header-title-top{
+
+        font-size: 20px;
+    }
+    .header-title-top
+    p {
+        font-size: 25px;
+    }
+    .header-title-bot{
+        width: 100%;
+        font-size: 20px; 
+        margin-top:5%;
+    }
+    .box-date{
+        width: 90%;
+        height: 90%;
+        top: 5%;
+        left: 5%;
+    }
+    .box-date-top{
+        font-size: 35px;
+    }
+    .box-date-top
+    p{
+        font-size: 25px;
+    }
+    .box-date-bot{
+        top: 40%;
+    }
+    .btn{
+        width: 80%;
+        padding: 20px;
+        font-size: 30px;
+        margin-left: 10%;
+    }
 
 }
-/* Large devices (desktops, 992px and up) */
-@media only screen and (min-width: 1024px) {
+ /* Medium devices (tablets, 768px and up) */
+
+
+ /* Extra large devices (large desktops, 1200px and up) */
+/* Large devices (desktops, 992px and up) 
+@media only screen and (min-width:768px) (max-width: 1025px) {
     .header-column-left{
         width: 55%;
     } 
@@ -196,7 +357,7 @@ body{
     }
 
 }
-/* Medium devices (tablets, 768px and up) */
+/* Medium devices (tablets, 768px and up) 
 @media only screen and (min-width: 768px) and (max-width:1023px) { 
     .header-wrapper{
         height: 50vh;
@@ -245,7 +406,6 @@ body{
     .box-date-bot{
         position: absolute;
         width: 100%;
-        /* background-color:teal; */
         top: 45%;
     }
     .btn{
@@ -255,8 +415,8 @@ body{
     }
 
  }
-/* Small devices (landscape phones, 576px and up) */
-@media only screen and (min-width: 568px){
+/* Small devices (landscape phones, 576px and up) 
+@media only screen and (max-width: 568px){
     .header-wrapper{
         width: 100vw;
         height: 100vh;
@@ -308,9 +468,6 @@ body{
     .btn{
         font-size: 30px;
     }
-
-
-
 }
 
 @media only screen and (min-width: 321px) and (max-width: 567px){
@@ -455,4 +612,4 @@ body{
     .btn:hover, .buttonmap:hover{
         transform: translateY(-5px);
     }
-}
+}*/
