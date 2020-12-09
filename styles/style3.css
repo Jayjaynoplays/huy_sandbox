@@ -138,14 +138,66 @@ body{
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media only screen and  (max-width: 1200px) { 
-    
+
 }
 /* Large devices (desktops, 992px and up) */
-@media only screen and (max-width: 992px) { 
+@media only screen and (min-width: 1024px) {
+    .header-column-left{
+        width: 55%;
+    } 
+    .column-wrapper{
+        top: 4%;
+        left: 5%;
+    }
+    .header-title-top{
+        width: 100%;
+    }
+    .header-column-right{
+        width: 45%;
+    }
+    .header-title-top 
+    p {
+        font-size: 50px; 
+        margin-top: 15%; 
+    }
+    .header-title-bot{
+        margin-top: 15%;
+        width: 100%;
+        font-size: 40px; 
+    }
+    .buttonmap{
+        font-size: 45px;
+        margin-top: 10%;
+    }
+    .header-column-right{
+        width: 45%;
+    }
+    .box-date{
+        width: 90%;
+        height: 60%;
+        top: 20%;
+        left: 5%;
+    }
+    .box-date-top{
+        left: 7%;
+        top: 5%;
+        font-size: 60px;
+    }
+    .box-date-top
+    p {
+        width: 100%;
+        font-size: 35px;
+    }
+    .box-date-bot{
+        top: 50%;
+    }
+    .btn{
+        font-size: 45px;
+    }
 
 }
 /* Medium devices (tablets, 768px and up) */
-@media only screen and (max-width: 769px) { 
+@media only screen and (min-width: 768px) and (max-width:1023px) { 
     .header-wrapper{
         height: 50vh;
     }
@@ -174,14 +226,37 @@ body{
     }
     .box-date{
         width: 90%;
-        height: 90%;
-        top: 5%;
+        height: 74%;
+        top: 11%;
         left: 5%;
+    }
+    .box-date-top{
+        left: 5%;
+        top: 3%;
+        background-color: lavender;
+        font-size: 40px;
+    }
+    .box-date-top
+    p {
+        width: 90%;
+        font-size: 25px;
+        margin-top: 2%;
+    }
+    .box-date-bot{
+        position: absolute;
+        width: 100%;
+        /* background-color:teal; */
+        top: 45%;
+    }
+    .btn{
+        width: 90%;
+        font-size: 35px;
+        margin-left: 5%;
     }
 
  }
 /* Small devices (landscape phones, 576px and up) */
-@media only screen and (max-width: 567px) and (min-width: 321px) {
+@media only screen and (min-width: 321px) and (max-width: 567px){
     .header-wrapper{
         height: 100vh;
     }
