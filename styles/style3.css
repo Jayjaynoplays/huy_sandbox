@@ -256,6 +256,63 @@ body{
 
  }
 /* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 568px){
+    .header-wrapper{
+        width: 100vw;
+        height: 100vh;
+    }
+    .header-column-left{
+        width: 60%;
+    }
+    .column-wrapper{
+        left: 2%;
+        top: 2%;
+    }
+    .header-title-top{
+        font-size: 20px;
+        width: 100%;
+        line-height: 40px;
+    }
+    .header-title-top
+    p{
+        font-size: 25px; 
+        margin-top: 3%; 
+    }
+    .header-title-bot{
+        margin-top: 3%;
+        width: 100%;
+        font-size: 20px; 
+    }
+    .buttonmap{
+        font-size: 25px;
+        margin-top: 5%;
+    }
+    .header-column-right{
+        width: 40%;
+    }
+    .box-date{
+        width: 90%;
+        height: 90%;
+        top: 5%;
+        left:5%;
+    }
+    .box-date-top{
+        left: 5%;
+        top:4%;
+        font-size: 30px;
+    }
+    .box-date-top
+    p{
+        font-size: 20px;
+    }
+    .btn{
+        font-size: 30px;
+    }
+
+
+
+}
+
 @media only screen and (min-width: 321px) and (max-width: 567px){
     .header-wrapper{
         height: 100vh;
