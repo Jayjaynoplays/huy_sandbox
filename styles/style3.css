@@ -307,6 +307,40 @@ body{
 
 }
 
+@media (max-width: 568px) and (min-width:541px){
+    .column-wrapper{
+        top: 10%;
+        left: 1%;
+    }
+    .header-title-top{
+        font-size: 20px;
+    }
+    .header-title-top
+    p{
+        font-size: 25px;
+        margin-top:3%;
+    }
+    .header-title-bot{
+        font-size: 25px; 
+        margin-top:5%;
+    }
+    .buttonmap{
+        margin-top: 3%;
+        font-size: 30px;
+    }
+    .box-date{
+        width: 400px;
+        left: 15%;
+    }
+    .box-date-top{
+        font-size: 40px;
+    }
+    .box-date-top
+    p{
+        font-size: 25px;
+    }
+}
+
 @media (max-width: 360px){
     .column-wrapper{
         top: 10%
@@ -325,9 +359,6 @@ body{
     }
     .buttonmap{
         margin-top: 5%;
-    }
-    .box-date{
-
     }
     .box-date-top
     p{
