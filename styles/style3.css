@@ -222,7 +222,55 @@ body{
         font-size: 23px;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 813px) and (min-width:768.5px){
+    .header-wrapper{
+        height: 1000px;
+    }
+    .header-column-left{
+        height: 50%;
+    }
+    .column-wrapper{
+        top: 10%;
+        left: 5%;
+    }
+    .header-title-top{
+        font-size: 30px;
+    }
+    .header-title-top
+    p{
+        margin-top: 7%;
+    }
+    .header-title-bot{
+       margin-top: 10%; 
+    }
+    .buttonmap{
+        font-size: 30px;
+        margin-top: 3%;
+    }
+    .box-date{
+        width: 80%;
+        height: 430px;
+        top: 5%;
+        left: 10%;
+    }
+    .box-date-top{
+        font-size: 70px;
+    }
+    .box-date-top
+    p{
+        font-size: 30px;
+    }
+    .box-date-bot{
+        top:35%
+    }
+    .btn{
+        font-size: 45px;
+        padding: 15px;
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 769px) {
     .column-wrapper{
         top: 10%;
     }
