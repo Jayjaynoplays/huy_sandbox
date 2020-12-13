@@ -257,6 +257,52 @@ body{
         margin-left: 10%;
     }
  }
+@media (max-width: 668px) and (min-width: 569px){
+    .column-wrapper{
+        top:10%;
+        left: 2%;
+    }
+    .header-title-top{
+        font-size: 25px;
+    }
+    .header-title-top
+    p{
+        margin-top: 3%;
+        font-size: 30px;
+    }
+    .header-title-bot{
+        margin-top: 5%;
+        font-size: 25px;
+    }
+    .buttonmap{
+        margin-top: 3%;
+        font-size: 30px;
+    }
+    .header-column-right{
+        height: 400px;
+    }
+    .box-date{
+        width: 80%;
+        height: 350px;
+        left: 10%;
+    }
+    .box-date-top{
+        font-size: 40px;
+    }
+    .box-date-top
+    p{
+        font-size: 30px;
+    }
+    .btn{
+        width: 80%;
+        padding: 15px;
+        font-size: 40px;
+        margin-left: 10%;
+    }
+    .going{
+        margin-top: 5%;
+    }
+}
 
 @media (max-width: 576px) {
     .column-wrapper{
