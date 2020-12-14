@@ -43,4 +43,45 @@ body{
         width: 70%;
         height: 400px;;
     }
+
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (max-width: 1200px) {
+        .boxmap{
+            width: 85%;
+        }
+    }
+    
+    /* Large devices (desktops, 992px and up) */
+    @media (max-width: 992px) {
+        .boxmap{
+            height: 340px;
+        }
+    
+    }
+
+    /* Medium devices (tablets, 768px and up) */
+   @media (max-width: 768px) {
+        .boxmap{
+            width: 90%;
+            height: 300px;
+        }
+   }
+
+    /* Small devices (landscape phones, 576px and up) */
+    @media (max-width: 576px) {
+        .row{
+            flex-direction: column;
+            margin-left: 10%;
+        }
+        .column{ 
+            width: 100%;
+            margin-left: 5% !important;
+        }
+        .boxmap{
+            margin-left: -5%;
+            height: 400px;
+        }
+    }
+    
+    
     
