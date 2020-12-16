@@ -10,6 +10,7 @@ body{
     margin:0;
     font-family: 'Roboto', sans-serif;
 }
+
   .row{
         display: flex;
         flex-direction: row;
@@ -63,7 +64,6 @@ body{
         .boxmap{
             height: 340px;
         }
-    
     }
 
     /* Medium devices (tablets, 768px and up) */
