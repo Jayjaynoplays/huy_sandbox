@@ -204,7 +204,7 @@ body{
             height: auto;
         }
         .header-row{
-            margin-left: 10px;
+            margin-left: 0;
             width: 100%;
         }
         .header-column-left{
@@ -223,7 +223,6 @@ body{
     }
     .header-row{
         flex-direction: column;
-        margin-left: 0;
         width: 100%;
         
     }
@@ -269,12 +268,14 @@ body{
             height: 400px;
         }
     }
+
     @media (max-width:360px){
         .header-column-left{
             margin-left: 10px;
         }
 
     }
+    
     @media (max-width: 280px){
         .left-top{
             font-size: 29px;
